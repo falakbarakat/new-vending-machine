@@ -1,3 +1,4 @@
+
 package se.lexicon.new_vending_machine;
 
 import java.util.Scanner;
@@ -14,9 +15,7 @@ public class Buy_more {
  			System.out.println("Welcome ");
  			return true;
  		default:
- 			System.out.println("good bye & enjoy your products");
- 			System.out.println("you will get back your remains");
- 			return false;
+			return false;
 }
 }
 	

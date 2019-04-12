@@ -3,11 +3,9 @@ package se.lexicon.new_vending_machine;
 import java.util.Scanner;
 
 public class Food_child extends Products{
-	
  public Food_child(String name,int price,int Id) {
 	  super(name, price, Id);
-    
- }  
+}  
    public Food_child() {
 	  this("a",0,0);
   }
@@ -21,9 +19,12 @@ public class Food_child extends Products{
 	      switch (id) {
 	      case 1:
 	    	 price=falafel.getPrice();
+	    	 System.out.println("eat sandwich hot");
 	    	  return price;
 	      case 2:
 	    	  price=chawerma.getPrice();
+		    	 System.out.println("eat sandwich hot");
+
 	    	  return price;
 	    	  default:
 	    		  System.out.println("not valid nomber");
